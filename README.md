@@ -4,7 +4,7 @@
 
 #### 1、关于监控系统主要用zabbix因此将各个执行器的监控放在zabbix查看
 
-![image-20221031154922729](images\image-20221031154922729.png)
+![image-20221031154922729](https://github.com/liangmartin/zabbix-spring_boot_actuator/blob/master/images/image-20221031154922729.png)
 
 ​        因为PJE项目具有三个执行器因此需要监控3个执行器、并且监控系统主要是zabbix因此放普罗米修斯也行，放zabbix。本次采用zabbix因此直接监控普罗米修斯接口、创建zabbix监控项。
 
